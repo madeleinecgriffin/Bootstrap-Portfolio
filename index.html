@@ -4,29 +4,40 @@
 	<title>MCG Profile</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!-- Linking CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
 
-<nav class="navbar navbar-default" id="myNav">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header" id="blueBox">
+    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+    		<span class="sr-only">Toggle navigation</span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>                        
+      	</button>
       <h1>Madeleine Griffin</h1>
     </div>
-    <ul class="nav navbar-nav navbar-right" id="navbarRight">
-      <li><a href="index.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+	
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+	    <ul class="nav navbar-nav navbar-right" id="navbarRight">
+	      <li><a href="index.html">About</a></li>
+	      <li><a href="portfolio.html">Portfolio</a></li>
+	      <li><a href="contact.html">Contact</a></li>
+	    </ul>
+	</div>
   </div>
 </nav>
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-8 col-sm-12">
+		<div class="col-md-8 col-sm-8 col-xs-12">
 			<div class="col-md-12" id="aboutMe">
 			<div class="row">
 				<div class="col-md-12">
@@ -35,10 +46,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4 col-xs-12">
 					<img class="mepic" alt="mepic" src="assets/images/profilepic.jpg">
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8 col-sm-8 col-xs-12">
 					<p class="paragraph">
 					An engineer turned web developer based in Chicago, IL. Soon to be fluent in HTML, CSS, Javascript, jQuery, and much more. 
 					<br><br>
@@ -49,7 +60,7 @@
 			</div>
 		</div>
 
-		<div class="col-md-4 col-sm-12">
+		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="col-md-12" id="contactMe">
 			<div class="row">
 				<div class="col-md-12">
@@ -58,7 +69,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 col-sm-12 col-xs-6">
 					<a href="https://github.com/madeleinecgriffin" target="_blank">
 						<img class="connect-image" alt="git" src="assets/images/githubpic.png">
 					</a>

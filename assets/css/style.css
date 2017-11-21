@@ -35,22 +35,15 @@ p {
 	margin-bottom: -60px;
 }
 
-#myNav {
-	height: 90px;
-}
-
 #blueBox {
 	background-color: #831924;
-	height: 90px;
+	
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 5px;
-	margin-left: 75px;
+	padding-bottom: 5px;
 }
 
-#navbarRight {
-	height: 90px;
-	margin-right: 125px;
+#navbarRight {	
 	padding-top: 15px;
 	font-size: 20px;
 }
@@ -119,6 +112,7 @@ p {
 	margin-top: 10px;
 }
 
+/*name input form (input)*/
 .name-input {
 	width: 50%;
 	font-size: 12px;
@@ -136,6 +130,12 @@ p {
 	height: 300px;
 	size: 500;
 	font-size: 12px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
 }
 
 .footer {
